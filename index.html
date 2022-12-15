@@ -2,90 +2,110 @@
 <html>
 
 <head>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" width="50" height="60">
+<p>Sign in to GitHub</p>
 <style>
-#main {
-  border: 1px solid gray;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 800px;
-  margin-left: 800px;
-  background-color: lightgray;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  border-radius: 15px;
-  
+div{
+
+border: 1px solid gray;
+border-radius: 10px;
+border-width: 1px;
+
+padding: 5px;
+background-color: rgb(240, 241, 242);
 }
-#sign_up {
-  border: 1px solid gray;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 800px;
-  margin-left: 800px;
-  background-color: lightgray;
-  color: black;
-  position: static;
-  padding: 5px;
-  text-align: center;
-  border-radius: 15px;
-} 
-.button1 {
-  background-color: #4CAF50; /* Green */
-  border-radius: 15px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+a:link{
+text-decoration: none;
+color: blue;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-} 
-li {
-  display: inline;
-  
-} 
+a:hover{
+text-decoration: underline;
+}
+input{
+border-radius: 5px;
+padding: 4px 50px;
+margin: 10px 10px;
+}
+label{
+padding: 2px ;
+text-align: left;
+margin-right: 80px;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+li{
+display: inline;
+}
+body, head{
+text-align: center;
+max-width: 350px;
+margin: auto;
+display: block;
+right: 100;
+left: 100;
+
+}
+button{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 10px 120px;
+margin: 10px 10px;
+border-radius: 5px;
+}
+#bottom{
+margin-right: 0px;
+}
+#div 2{
+background-color: rgb(255,255,255);
+}
+.contact{
+color: rgb(100,100,100);
+}
+#top{
+background-color:gray;
+position: fixed;
+}
+div, a{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
 </style>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo"style="width:50px;height:60px;">
-<p><b>Sign in to GitHub</b></p>
-
 </head>
-	
+
 <body>
-<form id="main">
-<label for="fname">Username or email address</label>
+<div id:"top">
+<label>Username or email address</label>
 <br>
-<input type="text" id="fname" name="fname" >
+<input>
 <br>
-<label for="pwd">Password</label>
-<a href="url">Forgot password?</a>
+<label>Password</label>
+<a href="https://github.com/password_reset">Forgot password?</a>
 <br>
-<input type="password" id="pwd" name="pwd" >
+<input>
 <br>
-<button class="button1"type="button" onclick="alert('You Are Sign in')">Sign in</button>
-</form>
+<button>Sign in</button>
 <br>
-
-
-
-<ul id="sign_up">
-  <li><p>New to GitHub</p></li>
-  <li><a href="url">Create an account.</a></li>
-
+</div>
+<br>
+<div id="div 2">
+<ul >
+<li><label id="bottom">New to GitHub?</label></li>
+<li><a href="https://github.com/signup?source=login">Create an account.</a></li>
 </ul>
+</div>
 <br>
 <ul>
-  <li><a href="url">Terms</a></li>
-  <li><a href="url">Privacy</a></li>
-  <li><a href="url">Security</a></li>
-  <li><a href="url">Contact GitHub</a></li>
+<li><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Pravacy</a></li>
+<li><a href="https://github.com/security">Security</a></li>
+<li><a href="https://support.github.com/?tags=dotcom-direct" class="contact">Contact GitHub</a></li>
 </ul>
 </body>
 
-
 </html>
-
